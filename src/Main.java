@@ -27,7 +27,6 @@ public class Main {
                 System.out.println("min=" + min + ", max=" + max);
             }
         };
-
         findMinMax(sourceList.stream(), compareInt, minMaxIntegerConsumer);
 
 
